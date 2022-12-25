@@ -67,23 +67,23 @@ EOF
 		AddPackage git lean luci-app-argon-config jerrykuku master
 		AddPackage git other luci-app-ikoolproxy iwrt main
 		AddPackage git other helloworld fw876 master
-		AddPackage git other oaf kiddin9/openwrt-packages/tree/master/tree/master
-		AddPackage git other open-app-filter kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-oaf kiddin9/openwrt-packages/tree/master		
-		AddPackage git other ngrokc kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-ngrokc kiddin9/openwrt-packages/tree/master		
-		AddPackage git other luci-app-openclash kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-phtunnel kiddin9/openwrt-packages/tree/master
-		AddPackage git other phtunnel kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-fileassistant kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-poweroff kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-smartdns kiddin9/openwrt-packages/tree/master		
-		AddPackage git other luci-app-usb3disable kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-watchcat kiddin9/openwrt-packages/tree/master
-		AddPackage git other ddnsto kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-ddnsto kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-control-weburl kiddin9/openwrt-packages/tree/master
-		AddPackage git other luci-app-timecontrol kiddin9/openwrt-packages/tree/master
+		AddPackage svn other oaf kiddin9/openwrt-packages/trunk
+		AddPackage svn other open-app-filter kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-oaf kiddin9/openwrt-packages/trunk		
+		AddPackage svn other ngrokc kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-ngrokc kiddin9/openwrt-packages/trunk		
+		AddPackage svn other luci-app-openclash kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-phtunnel kiddin9/openwrt-packages/trunk
+		AddPackage svn other phtunnel kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-fileassistant kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-poweroff kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-smartdns kiddin9/openwrt-packages/trunk		
+		AddPackage svn other luci-app-usb3disable kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-watchcat kiddin9/openwrt-packages/trunk
+		AddPackage svn other ddnsto kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-ddnsto kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-control-weburl kiddin9/openwrt-packages/trunk
+		AddPackage svn other luci-app-timecontrol kiddin9/openwrt-packages/trunk
 
 		case "${TARGET_BOARD}" in
 		ramips)
