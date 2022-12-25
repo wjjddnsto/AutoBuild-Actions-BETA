@@ -63,14 +63,26 @@ EOF
 		done ; unset i
 
 		rm -r ${FEEDS_LUCI}/luci-theme-argon*
-		AddPackage git themes luci-theme-argon jerrykuku 18.06
 		AddPackage svn apps minieap immortalwrt/packages/branches/openwrt-18.06/net
-		AddPackage svn other luci-app-openclash vernesong/OpenClash/branches/dev
 		AddPackage git lean luci-app-argon-config jerrykuku master
 		AddPackage git other luci-app-ikoolproxy iwrt main
 		AddPackage git other helloworld fw876 master
-		AddPackage git themes luci-theme-neobird thinktip main
-		AddPackage git other luci-app-smartdns pymumu lede
+		AddPackage svn other oaf kiddin9/openwrt-packages
+		AddPackage svn other luci-app-oaf kiddin9/openwrt-packages		
+		AddPackage svn other ngrokc kiddin9/openwrt-packages
+		AddPackage svn other luci-app-ngrokc kiddin9/openwrt-packages		
+		AddPackage svn other luci-app-openclash kiddin9/openwrt-packages
+		AddPackage svn other luci-app-phtunnel kiddin9/openwrt-packages
+		AddPackage svn other phtunnel kiddin9/openwrt-packages
+		AddPackage svn other luci-app-fileassistant kiddin9/openwrt-packages
+		AddPackage svn other luci-app-poweroff kiddin9/openwrt-packages
+		AddPackage svn other luci-app-smartdns kiddin9/openwrt-packages		
+		AddPackage svn other luci-app-usb3disable kiddin9/openwrt-packages
+		AddPackage svn other luci-app-watchcat kiddin9/openwrt-packages
+		AddPackage svn other ddnsto kiddin9/openwrt-packages
+		AddPackage svn other luci-app-ddnsto kiddin9/openwrt-packages
+		AddPackage svn other luci-app-control-weburl kiddin9/openwrt-packages
+		AddPackage svn other luci-app-timecontrol kiddin9/openwrt-packages
 
 		case "${TARGET_BOARD}" in
 		ramips)
