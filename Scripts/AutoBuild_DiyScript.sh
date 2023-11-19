@@ -66,7 +66,7 @@ EOF
 		AddPackage svn apps minieap immortalwrt/packages/branches/openwrt-18.06/net
 		AddPackage git lean luci-app-argon-config jerrykuku master
 		AddPackage git other luci-app-ikoolproxy iwrt main
-		AddPackage git other helloworld fw876 master
+		AddPackage git other luci-app-mosdns sbwml master
 		AddPackage svn other oaf kiddin9/openwrt-packages/trunk
 		AddPackage svn other open-app-filter kiddin9/openwrt-packages/trunk
 		AddPackage svn other luci-app-oaf kiddin9/openwrt-packages/trunk		
