@@ -77,9 +77,8 @@ CONFIG_PACKAGE_mjpg-streamer-output-zmq=y
 CONFIG_PACKAGE_mjpg-streamer-www=y
 CONFIG_PACKAGE_mjpg-streamer-www-simple=y
 CONFIG_PACKAGE_luci-app-argon-config=y
-CONFIG_PACKAGE_luci-app-adbyby-plus=y
+# CONFIG_PACKAGE_luci-app-adbyby-plus=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
-CONFIG_PACKAGE_luci-app-autoupdate=y
 CONFIG_PACKAGE_luci-app-aria2=y
 CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
 CONFIG_PACKAGE_luci-app-cifs-mount=y
@@ -88,12 +87,12 @@ CONFIG_PACKAGE_ddns-scripts_aliyun=y
 CONFIG_PACKAGE_ddns-scripts_dnspod=y
 CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
 CONFIG_PACKAGE_ddns-scripts_no-ip_com=y
-# CONFIG_PACKAGE_luci-app-diskman is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_mdadm is not set
-# CONFIG_PACKAGE_luci-app-dockerman is not set
-# CONFIG_PACKAGE_luci-app-docker=y
+CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_mdadm=y
+CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-docker=y
 # CONFIG_DOCKER_CGROUP_OPTIONS=y
 # CONFIG_DOCKER_NET_MACVLAN=y
 # CONFIG_DOCKER_OPTIONAL_FEATURES=y
@@ -103,10 +102,10 @@ CONFIG_PACKAGE_ddns-scripts_no-ip_com=y
 # CONFIG_PACKAGE_luci-app-jd-dailybonus is not set
 # CONFIG_PACKAGE_luci-app-netdata is not set
 CONFIG_PACKAGE_luci-app-nft-qos=y
-# CONFIG_PACKAGE_luci-app-nfs=y
+CONFIG_PACKAGE_luci-app-nfs=y
 # CONFIG_PACKAGE_luci-app-natter=y
 # CONFIG_PACKAGE_luci-app-npc=y
-# CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-onliner=y
 # CONFIG_PACKAGE_luci-app-passwall=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook is not set
@@ -123,30 +122,31 @@ CONFIG_PACKAGE_luci-app-onliner=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin is not set
 # CONFIG_PACKAGE_luci-app-pptp-server=y
-# CONFIG_PACKAGE_luci-app-qbittorrent=y
-# CONFIG_PACKAGE_luci-app-qbittorrent_dynamic is not set
-# CONFIG_PACKAGE_luci-app-qbittorrent_static=y
+CONFIG_PACKAGE_luci-app-qbittorrent=y
+CONFIG_PACKAGE_luci-app-qbittorrent_dynamic is not set
+CONFIG_PACKAGE_luci-app-qbittorrent_static=y
 # CONFIG_PACKAGE_luci-app-rclone is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 CONFIG_PACKAGE_luci-app-serverchan=y
-# CONFIG_PACKAGE_luci-app-sqm is not set
+CONFIG_PACKAGE_luci-app-sqm is not set
 CONFIG_PACKAGE_luci-app-samba=y
 # CONFIG_PACKAGE_luci-app-samba4 is not set
 CONFIG_PACKAGE_luci-app-shutdown=y
 CONFIG_PACKAGE_luci-app-ssrserver-python=y
 CONFIG_PACKAGE_luci-app-softethervpn=y
-CONFIG_PACKAGE_luci-app-syncdial=y
+# CONFIG_PACKAGE_luci-app-syncdial=y
+# CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-smartdns=y
 CONFIG_PACKAGE_luci-app-pushbot=y
 CONFIG_PACKAGE_luci-app-socat=y
-CONFIG_PACKAGE_luci-app-turboacc=y
-CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_OFFLOADING=y
+# CONFIG_PACKAGE_luci-app-turboacc=y
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_OFFLOADING=y
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_DRV is not set
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE is not set
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM is not set
-CONFIG_PACKAGE_luci-app-ttyd=y
+# CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-uhttpd=y
 CONFIG_PACKAGE_luci-app-usb-printer=y
 # CONFIG_PACKAGE_luci-app-uugamebooster=y
@@ -156,7 +156,7 @@ CONFIG_PACKAGE_luci-app-usb-printer=y
 # CONFIG_PACKAGE_luci-app-v2ray-server is not set
 # CONFIG_PACKAGE_luci-app-xlnetacc is not set
 CONFIG_PACKAGE_luci-app-wrtbwmon=y
-# CONFIG_PACKAGE_luci-app-wireguard=y
+CONFIG_PACKAGE_luci-app-wireguard=y
 CONFIG_PACKAGE_luci-app-webd=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 
@@ -201,6 +201,7 @@ CONFIG_PACKAGE_luci-theme-neobird=y
 
 # 其他 Appliciations
 # CONFIG_PACKAGE_autosamba is not set
+CONFIG_PACKAGE_luci-compat=y
 CONFIG_PACKAGE_adb=y
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_curl=y
